@@ -149,6 +149,27 @@ User question
 | Constraints/Format | How to respond      | Defines structure and limits     | Controls output shape + readability   | 🔥🔥 Medium    | APIs, automation, UI rendering, structured outputs         | Too strict → rigid or incomplete answers     |
 | Few-shot Examples  | Show me exactly how | Shows examples of desired output | Teaches pattern + format directly     | 🔥🔥🔥 Highest | Complex tasks, consistent formatting, classification tasks | Bad examples → model learns wrong pattern    |
 
+6. Ollama
+
+- Get up and running with Kimi-K2.5, GLM-5, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models locally or on your VPS
+- https://github.com/ollama/ollama
+
+```sh
+curl http://localhost:11434/api/chat -d '{
+  "model": "gemma3",
+  "messages": [{
+    "role": "user",
+    "content": "Why is the sky blue?"
+  }],
+  "stream": false
+}'
+```
+
+```sh
+uv add ollama
+uv add pydantic
+```
+
 ## Practice Time
 
 ## References
