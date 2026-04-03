@@ -176,3 +176,5 @@ uv add pydantic
 
 - https://weaviate.io/blog/chunking-strategies-for-rag
 - https://viblo.asia/p/toi-uu-hoa-rag-kham-pha-5-chien-luoc-chunking-hieu-qua-ban-can-biet-EvbLbPGW4nk
+- https://developers.llamaindex.ai/python/examples/low_level/oss_ingestion_retrieval/#1-load-data
+- https://dev.to/eteimz/understanding-langchains-recursivecharactertextsplitter-2846
